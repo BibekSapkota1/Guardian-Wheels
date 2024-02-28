@@ -1,4 +1,5 @@
 import logo from '../assets/Logo.png'
+import { Link } from 'react-router-dom';
 import React from 'react'
 
 function Display() {
@@ -6,17 +7,19 @@ function Display() {
     <div>
       <div className='bg-primary h-screen'>
 
-        <div className='text-center h-1/5'>
+        <div className='text-center h-1/5 text-white'>
           <h1 className='font-semibold pt-10 text-3xl'>Back To</h1>
-          <h1 className='font-bold p-2 text-5xl'>SCHOOL</h1>
+          <h1 className='font-bold p-2 text-5xl font-Kaushan'>SCHOOL</h1>
         </div>
 
         <div className="flex justify-center items-center h-3/5">
           <img src={logo} alt="Description of the image" className="h-auto" />
         </div>
 
+
         <div className='flex justify-center items-center h-1/5'>
-          <div class="w-full h-40 flex items-center justify-center cursor-pointer">
+
+          <div class="w-full  flex items-center justify-center cursor-pointer">
             <div
               class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
             >
@@ -59,16 +62,21 @@ function Display() {
                   ></path>
                 </svg>
               </span>
-              <span
-                class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
-              >Get Started
-              </span>
+              <Link to="/home" >
+                <span
+                  class="relative w-full text-left font-bold transition-colors duration-200 ease-in-out group-hover:text-black"
+                >Get Started
+
+                </span>
+              </Link>
             </div>
           </div>
 
         </div>
+
       </div>
-    </div>
+
+    </div >
 
   )
 }

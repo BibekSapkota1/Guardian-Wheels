@@ -10,7 +10,10 @@ module.exports = {
         'secondary': '#FFF50C',
         'redd': '#F99393',
       },
-      
+      fontFamily: {
+        'Kaushan':"Kaushan Script",
+      }
+
     },
   },
   plugins: [],
