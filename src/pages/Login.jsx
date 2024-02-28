@@ -2,7 +2,11 @@ import React from 'react'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div>
+        <div className="h-[200px] w-full bg-primary text-primary">
+            meow
+        </div>
+    </div>
   )
 }
 
