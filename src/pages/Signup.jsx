@@ -109,7 +109,7 @@ function Signup() {
             </div>
             {errorMessage && <p className="text-red-500">{errorMessage}</p>}
           </div>
-          <div className="flex w-full my-3 text-primary justify-between">
+          <div className="flex w-full mb-3 text-primary justify-between">
             <div className="flex">
               <input type="checkbox" name="remember" id="" />
               <p className="pl-1">Remember me</p>

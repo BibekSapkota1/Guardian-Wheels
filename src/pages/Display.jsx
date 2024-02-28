@@ -12,7 +12,7 @@ function Display() {
         </div>
 
         <div className="flex justify-center items-center h-3/5">
-          <img src={logo} alt="Description of the image" className="h-auto" />
+          <img src={logo} alt="Description of the" className="h-auto" />
         </div>
 
         <div className='flex justify-center items-center h-1/5'>
