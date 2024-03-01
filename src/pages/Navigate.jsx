@@ -9,11 +9,13 @@ function Navigate() {
   return (
     <div className='w-full'>
         <Header message="Hi, Solomon" />
-        <div className="w-11/12 mx-auto">
+        <div className="w-11/12 flex flex-col lg:flex-row lg:justify-around mx-auto">
           <Link to="/tracking">
            <Box title="Real time Tracking" color="text-pink-500" img={photo1}/>
           </Link>
+          <Link to="/navigate">
             <Box title="Attendence" color="text-pink-500" img={photo2}/>
+          </Link>
         </div>
         <Footer id="1"/>
     </div>

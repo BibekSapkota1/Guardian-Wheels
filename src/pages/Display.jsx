@@ -1,7 +1,6 @@
 import logo from '../assets/Logo.png'
 import { Link } from 'react-router-dom';
 import React from 'react'
-
 function Display() {
   return (
     <div>
@@ -13,7 +12,7 @@ function Display() {
         </div>
 
         <div className="flex justify-center items-center h-3/5">
-          <img src={logo} alt="Description of the" className="h-auto" />
+          <img src={logo} alt="Description of the" className="h-auto lg:h-4/5" />
         </div>
 
 

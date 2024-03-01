@@ -17,13 +17,13 @@ function Login() {
   };
 
   return (
-    <>
+    <div className='lg:flex lg:min-h-screen'>
       <div className="h-[40vh] mb-32 w-full bg-primary rounded-b-[90px]">
         <h1 className="text-center text-2xl pt-6 text-white font-semibold">Welcome Back</h1>
-        <img className="w-full" src={pic} alt="studying" />
+        <img className="w-full md:w-auto md:h-[50vh] lg:h-[80vh] md:mx-auto" src={pic} alt="studying" />
       </div>
-      <div className="flex flex-col w-10/12 mx-auto">
-        <form onSubmit={handleSubmit}>
+      <div className="flex flex-col lg:items-center lg:justify-center w-10/12 mx-auto">
+        <form onSubmit={handleSubmit} className='lg:border lg:border-primary lg:rounded-2xl lg:px-7 lg:py-7'>
           <div className="w-full flex flex-col">
             <div className="relative">
               <input
@@ -60,12 +60,12 @@ function Login() {
             <button type="submit" className="text-xl text-white w-full font-semibold text-center">Login</button>
             </Link>
           </div>
-        </form>
         <Link to="/signup" >
           <p className="w-full text-center text-primary my-1">Don't Have an Account? Sign Up</p>
         </Link>
+        </form>
       </div>
-    </>
+    </div>
   )
 }
 
