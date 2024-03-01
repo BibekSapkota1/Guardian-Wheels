@@ -9,6 +9,7 @@ module.exports = {
         'primary': '#0D65F8',
         'secondary': '#FFF50C',
         'redd': '#F99393',
+        "last":"#251F72"
       },
       fontFamily: {
         'Kaushan':"Kaushan Script",

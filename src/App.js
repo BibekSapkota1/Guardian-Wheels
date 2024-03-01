@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Navigate from './pages/Navigate';
+import Tracking from './pages/Tracking';
+import Setting from './pages/Setting';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/navigate' element={<Navigate/>}/>
+        <Route path='/tracking' element={<Tracking/>}/>
+        <Route path='/setting' element={<Setting/>}/>
       </Routes>
     </div>
   );

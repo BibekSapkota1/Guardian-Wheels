@@ -56,7 +56,9 @@ function Login() {
 
           </div>
           <div className="bg-primary mt-3 rounded-2xl py-2">
+            <Link to="/navigate">
             <button type="submit" className="text-xl text-white w-full font-semibold text-center">Login</button>
+            </Link>
           </div>
         </form>
         <Link to="/signup" >
